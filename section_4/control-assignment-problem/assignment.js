@@ -7,6 +7,15 @@ if(randomNumber1>0.7 && randomNumber2>0.7){
   alert('not greater '+randomNumber2+' '+randomNumber1);  
 }
 else{
-  alert(randomNumber2+' '+randomNumber1)
+  alert('both not ture =>  '+randomNumber2+' '+randomNumber1)
 }
 
+const arr = [1,2,3,4,5,6,7,8,9,10,11];
+
+for(let i = arr.length; i>=0; i--){
+  console.log(arr[i]+' <=');
+}
+
+// for(const el of arr){
+//   console.log(el+' <<');
+// }
